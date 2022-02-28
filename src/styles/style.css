@@ -1,1 +1,102 @@
-/* Escreva seu código aqui */
+body {
+  background: linear-gradient(
+    90deg,
+    lightblue,
+    lightcoral,
+    lightpink,
+    lightgoldenrodyellow
+  );
+  text-align: center;
+}
+.shake {
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(4px, 4px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-4px, -4px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-7px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(7px, 4px) rotate(0deg);
+  }
+  40% {
+    transform: translate(4px, -4px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-4px, 4px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-7px, 4px) rotate(0deg);
+  }
+  70% {
+    transform: translate(7px, 4px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-4px, -4px) rotate(1deg);
+  }
+  90% {
+    transform: translate(4px, 4px) rotate(0deg);
+  }
+  100% {
+    transform: translate(4px, -4px) rotate(-1deg);
+  }
+}
+
+#jogo {
+  background-color: lightgoldenrodyellow;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+#bolaJogo {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(#f0c1c1, #313dc5);
+  border: 2px solid rgb(247, 5, 206);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#resposta {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+button {
+  width: 90px;
+  height: 35px;
+  color: blue;
+  border: #c98a8a 1px solid;
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 15px 0;
+  color: blueviolet;
+  font-family: cursive;
+}
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 15px 0;
+  color: blue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+p {
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+}

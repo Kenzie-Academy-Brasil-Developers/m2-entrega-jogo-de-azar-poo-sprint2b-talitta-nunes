@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- Escreva seu código aqui -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>🎱Magic 8 Ball🎱</title>
+  </head>
+  <body>
+    <div id="jogo">
+      <h1>🔮Conselhos de uma bola mágica🔮</h1>
+      <h2>🪄Faça sua pergunta abaixo!🪄</h2>
+      <textarea id="perguntaAqui" cols="30" rows="4"></textarea>
+      <br />
+      <button id="perguntas-aqui" onClick="shake()">Make a wish</button>
+      <div id="bolaJogo">
+        <p id="respostaDevolvida"></p>
+      </div>
+    </div>
+
+    <script type="module" src="./src/script.js"></script>
+  </body>
 </html>
